@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\SwinAdventure\GameObject.cs">
+      <Link>GameObject.cs</Link>
+    </Compile>
+    <Compile Include="..\SwinAdventure\IdentifiableObject.cs">
+      <Link>IdentifiableObject.cs</Link>
+    </Compile>
+    <Compile Include="..\SwinAdventure\Inventory.cs">
+      <Link>Inventory.cs</Link>
+    </Compile>
+    <Compile Include="..\SwinAdventure\Item.cs">
+      <Link>Item.cs</Link>
+    </Compile>
+    <Compile Include="..\SwinAdventure\Player.cs">
+      <Link>Player.cs</Link>
+    </Compile>
+    <Compile Include="..\SwinAdventure\IHaveInventory.cs">
+      <Link>IHaveInventory.cs</Link>
+    </Compile>
+  </ItemGroup>
+</Project>
