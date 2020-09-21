@@ -10,7 +10,7 @@ namespace SwinAdventure
         public override string Execute(Player p, string[] text)
         {
             if (text.Length == 1 && text[0] == "look")
-                return "You are in the " + p.Location.FirstId + "\n" + p.Location.FullDescription;
+                return p.Location.FullDescription;
 
             else if (text.Length != 3 && text.Length != 5) 
                 return "I don't know how to look like that"; 

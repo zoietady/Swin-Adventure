@@ -6,22 +6,24 @@ namespace SwinAdventure
     {
         public static void Main(string[] args)
         {
-            String name, desc;
+            string name, desc;
             Player p;
             Item itm1, itm2, itm3;
             Bag bag;
-            String[] command = new string[] {};
-            String raw = "";
+            Location loc;
+
+            string[] command = new string[] {""};
+            string raw;
             LookCommand look = new LookCommand();
+
             
-
-
             Console.WriteLine("What's your name?");
             name = Console.ReadLine();
             Console.WriteLine("Describe yourself {0}?", name );
             desc = Console.ReadLine();
 
-            p = new Player(name, desc);
+            loc = new Location(new string[] { "the hallway" }, "Hallway", "A very well lit hallway");
+            p = new Player(name, desc, loc);
             itm1 = new Item(new string[] { "Item 1" }, "The First Item", "The very first item");
             itm2 = new Item(new string[] { "Item 2" }, "The Second Item", "The not first item");
 
@@ -44,8 +46,8 @@ namespace SwinAdventure
                 raw = Console.ReadLine();
 
                 command = raw.Split(' ');
-
-                look.Execute(p, command);
+                
+                Console.WriteLine(look.Execute(p, command));
             }
         }
     }

@@ -3,11 +3,9 @@ namespace SwinAdventure
 {
 	public class Location : GameObject, IHaveInventory
 	{
-		private Inventory _inventory;
-
-		public Location(string[] ids, string name, string desc) : base(ids, name, desc)
+        public Location(string[] ids, string name, string desc) : base(ids, name, desc)
 		{
-			_inventory = new Inventory();
+			Inventory = new Inventory();
 		}
 
 		public GameObject Locate(string id)
@@ -18,15 +16,18 @@ namespace SwinAdventure
 			}
 			else
 			{
-				return _inventory.Fetch(id);
+				return Inventory.Fetch(id);
 			}
 		}
 
-		public Inventory Inventory
+        public Inventory Inventory { get; }
+
+        public override string FullDescription
 		{
 			get
 			{
-				return _inventory;
+				string idesc = string.Format("You are in the {0}\n{1}", Name, base.FullDescription);
+				return idesc;
 			}
 		}
 
