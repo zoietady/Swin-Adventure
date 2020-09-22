@@ -1,0 +1,6 @@
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\bin\Debug\SwinAdventure.exe
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\bin\Debug\SwinAdventure.pdb
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Debug\SwinAdventure.csprojAssemblyReference.cache
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Debug\SwinAdventure.csproj.CoreCompileInputs.cache
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Debug\SwinAdventure.exe
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Debug\SwinAdventure.pdb

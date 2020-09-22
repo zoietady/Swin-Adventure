@@ -1,0 +1,4 @@
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\bin\Release\SwinAdventure.exe
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Release\SwinAdventure.csprojAssemblyReference.cache
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Release\SwinAdventure.csproj.CoreCompileInputs.cache
+C:\Users\ZOIET\Source\Repos\swin-adventure\SwinAdventure\obj\Release\SwinAdventure.exe

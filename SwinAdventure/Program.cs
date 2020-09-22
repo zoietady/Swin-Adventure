@@ -27,7 +27,7 @@ namespace SwinAdventure
             itm1 = new Item(new string[] { "Item 1" }, "The First Item", "The very first item");
             itm2 = new Item(new string[] { "Item 2" }, "The Second Item", "The not first item");
 
-            p.Inventory.Put(itm1);
+            loc.Inventory.Put(itm1);
             p.Inventory.Put(itm2);
 
             bag = new Bag(new String[] { "Bag" }, "The Bag", "Just a Bag");

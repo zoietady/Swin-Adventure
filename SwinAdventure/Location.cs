@@ -26,7 +26,7 @@ namespace SwinAdventure
 		{
 			get
 			{
-				string idesc = string.Format("You are in the {0}\n{1}", Name, base.FullDescription);
+				string idesc = string.Format("\nYou are in the {0}\n{1}\n\nin this room you can see:\n{2}", Name, base.FullDescription, Inventory.ItemList);
 				return idesc;
 			}
 		}
