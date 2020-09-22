@@ -31,5 +31,8 @@
     <Compile Include="..\SwinAdventure\IHaveInventory.cs">
       <Link>IHaveInventory.cs</Link>
     </Compile>
+    <Compile Include="..\SwinAdventure\Location.cs">
+      <Link>Location.cs</Link>
+    </Compile>
   </ItemGroup>
 </Project>

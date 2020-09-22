@@ -4,12 +4,10 @@ namespace SwinAdventure
 {
     public class Player : GameObject, IHaveInventory
     {
-        private Location _location;
-
-        public Player(string name, string desc, Location location) : base (new string[] { "me", "inventory" }, name, desc)
+        public Player(string name, string desc, Location location = null) : base (new string[] { "me", "inventory" }, name, desc)
         {
             Inventory = new Inventory();
-            Location = location;
+            Location = location ?? new Location(new string[] { "the hallway" }, "Hallway", "A very well lit hallway");
         }
 
         public GameObject Locate(string id)
@@ -21,7 +19,7 @@ namespace SwinAdventure
                 return Inventory.Fetch(id);
 
             else
-                return _location.Locate(id);
+                return Location.Locate(id);
 
         }
 

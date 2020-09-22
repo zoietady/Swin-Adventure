@@ -52,7 +52,7 @@ namespace SwinAdventure
 				return "I can't find the " + thingId;
 			else
 			{
-				GameObject obj = container.Locate(thingId) as GameObject;
+				GameObject obj = container.Locate(thingId);
 
 				return obj.FullDescription;
 			}

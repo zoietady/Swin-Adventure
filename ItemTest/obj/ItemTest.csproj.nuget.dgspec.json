@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ZOIET\\Source\\Repos\\swin-adventure\\ItemTest\\ItemTest.csproj": {}
+    "/Users/zoietad-y/Documents/2020backup/files/developer/school/OOP/SwinAdventure/ItemTest/ItemTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ZOIET\\Source\\Repos\\swin-adventure\\ItemTest\\ItemTest.csproj": {
+    "/Users/zoietad-y/Documents/2020backup/files/developer/school/OOP/SwinAdventure/ItemTest/ItemTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZOIET\\Source\\Repos\\swin-adventure\\ItemTest\\ItemTest.csproj",
+        "projectUniqueName": "/Users/zoietad-y/Documents/2020backup/files/developer/school/OOP/SwinAdventure/ItemTest/ItemTest.csproj",
         "projectName": "ItemTest",
-        "projectPath": "C:\\Users\\ZOIET\\Source\\Repos\\swin-adventure\\ItemTest\\ItemTest.csproj",
-        "packagesPath": "C:\\Users\\ZOIET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZOIET\\Source\\Repos\\swin-adventure\\ItemTest\\obj\\",
+        "projectPath": "/Users/zoietad-y/Documents/2020backup/files/developer/school/OOP/SwinAdventure/ItemTest/ItemTest.csproj",
+        "packagesPath": "/Users/zoietad-y/.nuget/packages/",
+        "outputPath": "/Users/zoietad-y/Documents/2020backup/files/developer/school/OOP/SwinAdventure/ItemTest/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ZOIET\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/zoietad-y/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

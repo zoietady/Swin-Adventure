@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace SwinAdventure
 {
 	public class Location : GameObject, IHaveInventory

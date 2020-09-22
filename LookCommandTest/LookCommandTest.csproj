@@ -40,5 +40,8 @@
     <Compile Include="..\SwinAdventure\Command.cs">
       <Link>Command.cs</Link>
     </Compile>
+    <Compile Include="..\SwinAdventure\Location.cs">
+      <Link>Location.cs</Link>
+    </Compile>
   </ItemGroup>
 </Project>

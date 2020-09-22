@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagTest", "BagTest\BagTest.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LookCommandTest", "LookCommandTest\LookCommandTest.csproj", "{8DB7A725-3ACB-4CD4-9B6C-FF8325B18BE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationTest", "LocationTest\LocationTest.csproj", "{42C80BCF-EC41-4B81-BFA0-6D7E4749CD9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -45,6 +47,10 @@ Global
 		{8DB7A725-3ACB-4CD4-9B6C-FF8325B18BE0}.Debug|anycpu.ActiveCfg = Debug|Any CPU
 		{8DB7A725-3ACB-4CD4-9B6C-FF8325B18BE0}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{8DB7A725-3ACB-4CD4-9B6C-FF8325B18BE0}.Release|anycpu.Build.0 = Release|Any CPU
+		{42C80BCF-EC41-4B81-BFA0-6D7E4749CD9B}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{42C80BCF-EC41-4B81-BFA0-6D7E4749CD9B}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{42C80BCF-EC41-4B81-BFA0-6D7E4749CD9B}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{42C80BCF-EC41-4B81-BFA0-6D7E4749CD9B}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
